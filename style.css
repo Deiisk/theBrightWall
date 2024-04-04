@@ -3,11 +3,24 @@
     font-family: sans-serif;
  }
 
+ /*Fonts*/
+
  @font-face {
-   font-family: 'ShineCoasty';
-   src: url(/fonts/ShineCoasty-WygZz.ttf);
+    font-family: 'ShineCoasty';
+    src: url(/fonts/ShineCoasty-WygZz.ttf);
  }
 
+ @font-face {
+    font-family: 'Leap';
+    src: url(/fonts/Leap.ttf);
+ }
+
+ @font-face {
+    font-family: 'Räder';
+    src: url(/fonts/PPRader/PPRader-Bold.otf);
+ }
+
+ /*Fonts*/
  body {
     background-color: rgb(27, 26, 26);
     margin: 0px;
@@ -53,6 +66,7 @@
     height: 100px;
     display: block;
     margin: 0;
+    border: 2px #010905 solid;
     object-fit: cover;
  }
 
@@ -71,9 +85,22 @@
  }
 
  h2 {
-   font-family: shineCoasty, sans-serif;
+    font-family: shineCoasty, sans-serif;
     text-align: center;
     font-size: 30px;
+    margin: -10px 0;
+ }
+
+ h3 {
+    font-family: Räder;
+    font-weight: bold;
+    font-size: 25px;
+    margin: 5px 0;
+ }
+
+ p {
+    font-family: Räder;
+    font-weight: lighter;
  }
 
  .posteo {
