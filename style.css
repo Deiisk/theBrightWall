@@ -1,0 +1,91 @@
+ * {
+    box-sizing: border-box;
+    font-family: sans-serif;
+ }
+
+ @font-face {
+   font-family: 'ShineCoasty';
+   src: url(/fonts/ShineCoasty-WygZz.ttf);
+ }
+
+ body {
+    background-color: rgb(27, 26, 26);
+    margin: 0px;
+ }
+
+ header {
+    position: sticky;
+    top: 0;
+    padding: 5px;
+    background-color: #905F41;
+    color: black;
+ }
+
+ main {
+    background-color: #667D72;
+    color: black;
+    padding: 25px;
+ }
+
+ footer {
+    background-color: #7A513A;
+    color: black;
+    padding: 10px;
+ }
+
+ header,
+ main,
+ footer {
+    width: 400px;
+    margin: auto;
+ }
+
+ h1 {
+    font-family: "Tac One", sans-serif;
+    font-size: 50px;
+    margin: 0;
+ }
+
+ /*Perfil del usuario*/
+ #foto-perfil {
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    display: block;
+    margin: 0;
+    object-fit: cover;
+ }
+
+ #nombre-usuario {
+    font-weight: bold;
+    font-family: "Chakra Petch", sans-serif;
+    font-size: 20px;
+    border-bottom: 1px solid black;
+ }
+
+ /*Publicaciones del usuario*/
+
+ div {
+    margin-top: 10px;
+    padding: 10px;
+ }
+
+ h2 {
+   font-family: shineCoasty, sans-serif;
+    text-align: center;
+    font-size: 30px;
+ }
+
+ .posteo {
+    background-color: #948D6C;
+ }
+
+ .anuncio {
+    background-color: #B3AA6B;
+ }
+
+ img {
+    width: 100%;
+    display: block;
+    margin: 0 auto;
+ }
