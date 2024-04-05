@@ -7,17 +7,17 @@
 
  @font-face {
     font-family: 'ShineCoasty';
-    src: url(theBrightWall/fonts/ShineCoasty-WygZz.ttf);
+    src: url(/theBrightWall/fonts/ShineCoasty-WygZz.ttf);
  }
 
  @font-face {
     font-family: 'Leap';
-    src: url(theBrightWall/fonts/Leap.ttf);
+    src: url(/theBrightWall/fonts/Leap.ttf);
  }
 
  @font-face {
     font-family: 'Räder';
-    src: url(theBrightWall/fonts/PPRader/PPRader-Bold.otf);
+    src: url(/theBrightWall/fonts/PPRader/PPRader-Bold.otf);
  }
 
  /*Fonts*/
