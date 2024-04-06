@@ -116,3 +116,20 @@
     display: block;
     margin: 0 auto;
  }
+
+/*Repositorio*/
+
+#repositorio {
+   color: #43040c;
+   text-decoration: none;
+   font-family: Räder;
+   font-weight: lighter;
+}
+
+#repositorio:hover {
+   color: #5d0b16;
+}
+
+#repositorio:active {
+   color: #670411;
+}
